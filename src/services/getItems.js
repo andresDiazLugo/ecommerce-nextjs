@@ -1,5 +1,5 @@
 export const getItems= async()=>{
-    const response = await fetch("http://localhost:3000/api/items");
+    const response = await fetch("https://ecommerce-nextjs-seven-eta.vercel.app/api/items");
     const dataObject = await response.json()
     return dataObject
 }
