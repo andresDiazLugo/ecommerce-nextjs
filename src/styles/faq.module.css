@@ -1,0 +1,9 @@
+.section{
+    padding-left: 4rem;
+    padding-top: 4rem;
+    font-weight: 700;
+}
+.section h2{
+    font-family: 700;
+    margin-bottom: 1rem;
+}

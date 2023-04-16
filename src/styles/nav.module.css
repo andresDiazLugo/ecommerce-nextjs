@@ -1,0 +1,52 @@
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerInfo{
+    min-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    background-image: url(https://previews.123rf.com/images/yupiramos/yupiramos1412/yupiramos141205032/34842812-icono-gamer-dise%C3%B1o.jpg);
+    background-size: cover;
+    border-radius: 50%;    
+    width:6rem;
+    height:6rem;
+    animation: palpit 2s ease-in-out infinite ;
+    cursor: pointer;
+}
+.listnav{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.listnav li{
+    font-weight: 700;
+    color: white;
+    font-size: 1.1rem;
+    transition: all 0.5s ease-in-out;
+}
+.listnav li:hover{
+    padding: 5px;
+    background-color: orange;
+    border-radius: 10px;
+    border-bottom: 4px solid white;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+@keyframes palpit {
+    0% {
+        transform: scale(0.1);
+      }
+      50% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(0.1);
+      }
+    
+}
